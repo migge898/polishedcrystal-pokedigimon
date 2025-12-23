@@ -257,6 +257,7 @@ AlphabeticalPokedexOrder:
 	dp TEDDIURSA
 	dp TENTACOOL
 	dp TENTACRUEL
+	dp TESTMON
 	dp TOGEKISS
 	dp TOGEPI
 	dp TOGETIC

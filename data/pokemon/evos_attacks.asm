@@ -5936,6 +5936,28 @@ endc
 	learnset 48, GUNK_SHOT ; Stomping Tantrum → HGSS tutor move
 	learnset 53, OUTRAGE
 
+	evos_attacks Testmon
+	learnset 1, PETAL_DANCE ; evolution move
+	learnset 1, TACKLE
+	learnset 1, GROWL
+	learnset 6, RAZOR_LEAF
+	learnset 9, POISONPOWDER
+	learnset 12, HEALINGLIGHT ; Synthesis → similar move
+	learnset 18, REFLECT
+	learnset 18, LIGHT_SCREEN
+	learnset 22, DISARM_VOICE ; Magical Leaf → new move
+	learnset 26, ENERGY_BALL ; Natural Gift → tutor move
+	learnset 34, ANCIENTPOWER ; Sweet Scent → HGSS tutor move
+	learnset 40, DAZZLINGLEAM ; Light Screen → TM move
+	learnset 46, BODY_SLAM
+	learnset 50, SAFEGUARD
+	learnset 56, PLAY_ROUGH ; Aromatherapy → new move
+	learnset 62, SOLAR_BEAM
+	learnset 66, HEAL_BELL ; Aromatherapy → similar move
+	learnset 72, OUTRAGE ; HGSS tutor move
+	learnset 76, HYPER_BEAM
+	learnset 80, MOONBLAST ; new move
+
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:
 	db -1 ; no more evolutions

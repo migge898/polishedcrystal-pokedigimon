@@ -1948,3 +1948,8 @@ SECTION "TaurosPaldeanWater Pics", ROMX
 TaurosPaldeanWaterFrontpic: INCBIN "gfx/pokemon/tauros_paldean_water/front.animated.2bpp.lz"
 TaurosPaldeanWaterBackpic:  INCBIN "gfx/pokemon/tauros_paldean_water/back.2bpp.lz"
 TaurosPaldeanWaterFrames:   INCLUDE "gfx/pokemon/tauros_paldean_water/frames.asm"
+
+SECTION "Testmon Pics", ROMX
+TestmonFrontpic: INCBIN "gfx/pokemon/testmon/front.animated.2bpp.lz"
+TestmonBackpic:  INCBIN "gfx/pokemon/testmon/back.2bpp.lz"
+TestmonFrames:   INCLUDE "gfx/pokemon/testmon/frames.asm"

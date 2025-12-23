@@ -1457,6 +1457,11 @@ AnnihilapeMini::     INCBIN "gfx/minis/annihilape.2bpp.lz"
 AnnihilapeMiniMask:: INCBIN "gfx/minis/annihilape_mask.1bpp.lz"
 AnnihilapeIcon::     INCBIN "gfx/icons/annihilape.2bpp.lz"
 
+SECTION "Testmon Mini Icon", ROMX
+TestmonMini::     INCBIN "gfx/minis/testmon.2bpp.lz"
+TestmonMiniMask:: INCBIN "gfx/minis/testmon_mask.1bpp.lz"
+TestmonIcon::     INCBIN "gfx/icons/testmon.2bpp.lz"
+
 SECTION "UnownB Mini Icon", ROMX
 UnownBMini::     INCBIN "gfx/minis/unown_b.2bpp.lz"
 UnownBMiniMask:: INCBIN "gfx/minis/unown_b_mask.1bpp.lz"

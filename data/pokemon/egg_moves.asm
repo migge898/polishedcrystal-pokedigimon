@@ -1232,5 +1232,16 @@ MunchlaxEggSpeciesMoves:
 	db GUNK_SHOT
 	db $ff
 
+TestmonEggSpeciesMoves:
+	dp TESTMON, PLAIN_FORM
+	db LEECH_SEED
+	db VINE_WHIP
+	db ANCIENTPOWER
+	db COUNTER
+	db SWORDS_DANCE
+	db CHARM
+	db HEAL_BELL
+	db $ff	
+
 NoEggSpeciesMoves:
 	db $ff

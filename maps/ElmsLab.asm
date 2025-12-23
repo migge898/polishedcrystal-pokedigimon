@@ -277,8 +277,8 @@ ChikoritaPokeBallScript:
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
-	pokepic CHIKORITA
-	cry CHIKORITA
+	pokepic TESTMON
+	cry TESTMON
 	waitbutton
 	closepokepic
 	opentext
@@ -290,7 +290,7 @@ ChikoritaPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke CHIKORITA, PLAIN_FORM, 5, ORAN_BERRY
+	givepoke TESTMON, PLAIN_FORM, 5, ORAN_BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
@@ -1032,7 +1032,7 @@ TakeTotodileText:
 
 TakeChikoritaText:
 	text "Elm: So, you like"
-	line "Chikorita, the"
+	line "Testmon, the"
 	cont "grass #mon?"
 	done
 
